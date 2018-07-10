@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title> Simpsons Quote Terminal</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <link href="https://fonts.googleapis.com/css?family=Cantarell|Ubuntu+Mono" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <div id="iconContainer">
+    <div id="generateButton" class="desktopIcon">
+      <i class="fa fa-free-code-camp"></i>
+      Generate Quote
+    </div>
+    <div id="twitterButton" class="desktopIcon">
+      <a href="#">
+        <i class="fa fa-twitter"></i>
+        Tweet Quote
+      </a>
+    </div> <!-- twitterContainer -->
+  </div> <!-- iconContainer -->
+
+  <div class="terminal">
+    <div id="title-bar">
+      <i class="fa fa-window-minimize"></i>
+      <i class="fa fa-window-maximize"></i>
+      <i class="fa fa-window-close"></i>
+      Simpsons Quote Terminal
+    </div> <!-- title bar -->
+    <div id="text-area">
+      <span id="user-text">bart@whyYouLittle</span>:
+      <span id="path">~/simpsons/quote/terminal</span>$&nbsp;
+      <span id="quoteOutput"></span>
+      <div id="cursor" class="cursorOn"></div>
+    </div> <!-- text-area -->
+  </div> <!-- terminal -->
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src='https://use.fontawesome.com/357cfaccac.js'></script>
+  <script src="js/index.js"></script>
+</body>
+</html>
