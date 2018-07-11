@@ -18,6 +18,14 @@ This app is incredibly simple!
 * 0.0.1
     * Initial release
 
+## Developing Locally
+
+This project uses Sass (SCSS syntax), BrowserSync for live preview functionality, and Gulp to stitch everything together. You'll want to have Node and Yarn (my preferred package manager) or NPM installed.
+
+First clone this repo to your machine. Then, installing the dependencies should be as simple as running `yarn install` or `npm install`.
+
+When I'm working on this project, I run `gulp watch`; this will watch the index.html file, compile SCSS changes on the fly, and update the output live via BrowserSync.
+
 ## Contributing
 
 In its current iteration, there are a number of bugs to be worked out and improvements to be made. Contributions to this project are more than welcome! Here's how to contribute:
