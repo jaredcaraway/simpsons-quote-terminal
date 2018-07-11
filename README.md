@@ -22,7 +22,7 @@ This app is incredibly simple!
 
 In its current iteration, there are a number of bugs to be worked out and improvements to be made. Contributions to this project are more than welcome! Here's how to contribute:
 
-1. Check the [Issues](Issues) page for a list of known bugs and suggested improvements. (If you want to contribute something else, please go ahead and open a new issue first.)
+1. Check the [Issues](https://github.com/jaredcaraway/simpsons-quote-terminal/issues) page for a list of known bugs and suggested improvements. (If you want to contribute something else, please go ahead and open a new issue first.)
 1. Fork it!
 1. Create your feature branch (`git checkout -b feature/fooBar`).
 1. Commit your changes (`git commit -am 'Add some fooBar'`).
