@@ -1,11 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Desktop from './components/Desktop';
 
 const el = document.getElementById("root");
 const root = ReactDOM.createRoot(el);
 
 function App() {
-    return <h1>Hello</h1>;
+    return <Desktop />;
 };
 
 root.render(<App />);
