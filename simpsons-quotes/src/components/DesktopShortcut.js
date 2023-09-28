@@ -1,5 +1,5 @@
 function DesktopShortcut() {
-    return <div>DesktopShortcut</div>;
+    return <h2>DesktopShortcut</h2>;
 }
 
 export default DesktopShortcut;

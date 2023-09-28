@@ -1,5 +1,5 @@
 function TaskbarIcon() {
-    return <div>TaskbarIcon</div>;
+    return <h3>TaskbarIcon</h3>;
 }
 
 export default TaskbarIcon;
