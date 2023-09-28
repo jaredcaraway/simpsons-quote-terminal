@@ -1,0 +1,23 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Run npm server",
+            "type": "shell",
+            "command": "cd ~/coding/grider-react-redux/books && npm run server",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        },
+        {
+            "label": "Run npm start",
+            "type": "shell",
+            "command": "cd ~/coding/grider-react-redux/books && npm run start",
+            "presentation": {
+                "reveal": "always",
+                "panel": "new"
+            }
+        }
+    ]
+}
