@@ -1,3 +1,5 @@
+import './Desktop.css';
+
 import DesktopShortcut from "./DesktopShortcut";
 import Taskbar from "./Taskbar";
 import Window from "./Window";

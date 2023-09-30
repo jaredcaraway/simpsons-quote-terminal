@@ -1,0 +1,13 @@
+html, body {
+    height: 100%;
+    color: #AEA79F;
+    font-size: 10px;
+  }
+  
+  body {
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 1.6rem;
+    background-color: #77216F;
+    line-height: 2.3rem;
+    width: 100%;
+  }
