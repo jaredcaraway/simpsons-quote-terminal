@@ -1,11 +1,15 @@
-import WindowControls from "./WindowControls";
+import TitleBar from './TitleBar';
+import Input from './Input';
+import Output from './Output';
 
 function Window({ windowType = "Terminal" }) {
     return (
         <div>
-            <h2>{windowType}</h2>
-            <WindowControls />
-        </div>
+            <h2>Window</h2>
+            <TitleBar windowType={windowType} />
+            <Input />
+            <Output />
+        </div >
     );
 }
 
