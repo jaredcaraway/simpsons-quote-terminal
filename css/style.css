@@ -51,13 +51,13 @@ body {
   margin: 2px 5px;
   padding: 0;
 }
-i {
+/* i {
   position: relative;
   float: left;
   font-size: 5rem;
   margin-top: 3px;
   margin-right: 4px;
-}
+} */
 #path {
   color: #729FCF;
 }

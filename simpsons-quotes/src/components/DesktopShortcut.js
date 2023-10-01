@@ -1,3 +1,5 @@
+import './DesktopShortcut.css';
+
 function DesktopShortcut({ id, className, anchorText }) {
     return (
         <div id={id} className="desktopIcon">
