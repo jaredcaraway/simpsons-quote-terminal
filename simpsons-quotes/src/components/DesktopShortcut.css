@@ -1,0 +1,9 @@
+#twitterButton {
+    position: absolute;
+    bottom: 18%;
+    display: none;
+    opacity: 0%;
+  }
+  #twitterButton i {
+    padding-left: 15%;
+  }

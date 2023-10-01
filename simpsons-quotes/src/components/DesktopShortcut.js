@@ -1,5 +1,12 @@
 function DesktopShortcut() {
-    return <h2>DesktopShortcut</h2>;
+    return (
+        <div id="twitterButton" className="desktopIcon">
+            <a href="#">
+                <i className="fa fa-twitter"></i>
+                Tweet Quote
+            </a>
+        </div>
+    );
 }
 
 export default DesktopShortcut;
