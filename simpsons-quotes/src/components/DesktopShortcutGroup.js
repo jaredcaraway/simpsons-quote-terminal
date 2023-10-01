@@ -1,4 +1,5 @@
 import DesktopShortcut from "./DesktopShortcut";
+import './DesktopShortcutGroup.css';
 
 function DesktopShortcutGroup() {
     return (
