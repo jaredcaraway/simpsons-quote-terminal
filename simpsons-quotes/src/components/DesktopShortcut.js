@@ -1,12 +1,11 @@
-function DesktopShortcut() {
+function DesktopShortcut({ id, className, anchorText }) {
     return (
-        // <div id="twitterButton" className="desktopIcon">
-        //     <a href="#">
-        //         <i className="fa fa-twitter"></i>
-        //         Tweet Quote
-        //     </a>
-        // </div>
-        <div>Desktop Shortcut</div>
+        <div id={id} className="desktopIcon">
+            <a href="#">
+                <i className={`fa ${className}`}></i>
+                {anchorText}
+            </a>
+        </div>
     );
 }
 

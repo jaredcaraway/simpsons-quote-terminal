@@ -4,8 +4,16 @@ import './DesktopShortcutGroup.css';
 function DesktopShortcutGroup() {
     return (
         <div id="iconContainer">
-            <DesktopShortcut />
-            <DesktopShortcut />
+            <DesktopShortcut
+                id="generateButton"
+                className="fa-free-code-camp"
+                anchorText="Generate Quote"
+            />
+            <DesktopShortcut
+                id="twitterButton"
+                className="fa-twitter"
+                anchorText="Tweet Quote"
+            />
         </div>
     );
 }
