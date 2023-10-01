@@ -1,9 +1,9 @@
 import WindowControlGroup from './WindowControlGroup';
 
-function TitleBar({ windowType }) {
+function TitleBar({ windowType, title }) {
     return (
         <div>
-            <h3>Title Bar: {windowType}</h3>
+            <h3>{title}</h3>
             <WindowControlGroup />
         </div>
     );

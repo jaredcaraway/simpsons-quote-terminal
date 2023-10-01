@@ -10,7 +10,7 @@ function Desktop() {
         <div>
             <h1>Desktop</h1>
             <Taskbar />
-            <Window />
+            <Window windowType="Terminal" />
             <DesktopShortcutGroup />
         </div>
     );
