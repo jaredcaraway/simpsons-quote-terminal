@@ -1,4 +1,5 @@
 import './Desktop.css';
+import DesktopShortcutGroup from './DesktopShortcutGroup';
 
 import DesktopShortcut from "./DesktopShortcut";
 import Taskbar from "./Taskbar";
@@ -10,7 +11,7 @@ function Desktop() {
             <h1>Desktop</h1>
             <Taskbar />
             <Window />
-            <DesktopShortcut />
+            <DesktopShortcutGroup />
         </div>
     );
 }
