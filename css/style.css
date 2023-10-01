@@ -1,4 +1,4 @@
-html,
+/* html,
 body {
   height: 100%;
   color: #AEA79F;
@@ -10,7 +10,7 @@ body {
   background-color: #77216F;
   line-height: 2.3rem;
   width: 100%;
-}
+} */
 .terminal {
   background-color: #2C001E;
   width: 55%;
@@ -73,18 +73,18 @@ i {
 .cursorOn {
   background-color: #AEA79F;
 }
-i.fa-free-code-camp,
+/* i.fa-free-code-camp,
 i.fa-twitter {
   display: block;
-  color: #dd4614;
+  color: #dd4 614;
   padding-left: 5%;
   font-size: 6rem;
   text-shadow: 5px 3px 12px black;
-}
-a {
+} */
+/* a {
   color: white;
-}
-#iconContainer {
+} */
+/* #iconContainer {
   display: block;
   position: relative;
   float: left;
@@ -92,8 +92,8 @@ a {
   left: 7%;
   width: 6%;
   height: 100%;
-}
-#twitterButton {
+} */
+/* #twitterButton {
   position: absolute;
   bottom: 18%;
   display: none;
@@ -101,8 +101,8 @@ a {
 }
 #twitterButton i {
   padding-left: 15%;
-}
-.desktopIcon {
+} */
+/* .desktopIcon {
   color: white;
   text-shadow: 5px 3px 12px black, 0 0 15px white;
   line-height: 2.4rem;
@@ -116,11 +116,11 @@ a {
 }
 .desktopIcon i {
   margin-bottom: 3px;
-}
-a:hover {
+} */
+/* a:hover {
   color: inherit;
   text-decoration: none;
 }
 .visible {
   display: block;
-}
+} */

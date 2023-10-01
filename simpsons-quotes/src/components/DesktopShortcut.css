@@ -2,8 +2,40 @@
     position: absolute;
     bottom: 18%;
     display: none;
-    opacity: 0%;
-  }
-  #twitterButton i {
+    opacity: 0;
+}
+
+#twitterButton i {
     padding-left: 15%;
-  }
+}
+
+i.fa-free-code-camp,
+i.fa-twitter {
+    display: block;
+    color: #dd4614;
+    padding-left: 5%;
+    font-size: 6rem;
+    text-shadow: 5px 3px 12px black;
+}
+
+a {
+    color: white;
+}
+
+.desktopIcon {
+    color: white;
+    text-shadow: 5px 3px 12px black, 0 0 15px white;
+    line-height: 2.4rem;
+    font-family: 'Cantarell', sans-serif;
+    font-size: 1.9rem;
+    transition: font-size 0.6s linear;
+}
+
+.desktopIcon:hover {
+    font-size: 2.5rem;
+    cursor: pointer;
+}
+
+.desktopIcon i {
+    margin-bottom: 3px;
+}
