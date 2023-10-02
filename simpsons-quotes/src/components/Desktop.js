@@ -7,9 +7,8 @@ import Window from "./Window";
 
 function Desktop() {
     return (
-        <div>
-            <h1>Desktop</h1>
-            <Taskbar />
+        <div id="desktop">
+            {/* <Taskbar /> */}
             <Window windowType="Terminal" />
             <DesktopShortcutGroup />
         </div>

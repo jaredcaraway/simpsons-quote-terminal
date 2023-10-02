@@ -1,0 +1,9 @@
+.terminal {
+    background-color: #2C001E;
+    width: 55%;
+    height: 80%;
+    border-radius: 8px 8px 5px 5px;
+    box-shadow: 5px 3px 12px black;
+    margin: 2% auto 5%;
+    overflow-wrap: break-word;
+  }

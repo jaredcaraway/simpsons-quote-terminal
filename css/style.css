@@ -11,7 +11,7 @@ body {
   line-height: 2.3rem;
   width: 100%;
 } */
-.terminal {
+/* .terminal {
   background-color: #2C001E;
   width: 55%;
   height: 80%;
@@ -19,11 +19,11 @@ body {
   box-shadow: 5px 3px 12px black;
   margin: 2% auto 5%;
   overflow-wrap: break-word;
-}
+} */
 #user-text {
   color: #8AE234;
 }
-#title-bar {
+/* #title-bar {
   background: linear-gradient(90deg, gray 20%, white, gray 80%);
   color: black;
   width: 100%;
@@ -43,14 +43,14 @@ body {
 }
 #title-bar i:last-of-type {
   padding-right: 0%;
-}
-#text-area {
+} */
+/* #text-area {
   padding: 0 1%;
-}
-#text-area div {
+} */
+/* #text-area div {
   margin: 2px 5px;
   padding: 0;
-}
+} */
 /* i {
   position: relative;
   float: left;
