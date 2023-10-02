@@ -1,0 +1,6 @@
+#title-bar i:first-of-type {
+    padding-left: 1.1%;
+  }
+  #title-bar i:last-of-type {
+    padding-right: 0%;
+  }

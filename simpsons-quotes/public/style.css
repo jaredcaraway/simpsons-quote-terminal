@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    /* height: 100%; */
+    color: #AEA79F;
+    font-size: 10px;
+  }
+
+  div#root {
+    height: 100vh;
+    overflow-y: hidden;
+  }
+  
+  

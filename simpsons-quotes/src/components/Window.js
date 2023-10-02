@@ -1,15 +1,17 @@
 import TitleBar from './TitleBar';
+import TextArea from './TextArea';
 import Input from './Input';
 import Output from './Output';
 
+import './Window.css';
+
 function Window({ windowType = "Terminal" }) {
     return (
-        <div>
-            <h2>Window</h2>
-            <TitleBar windowType={windowType} />
-            <Input />
-            <Output />
-        </div >
+        <div class="terminal">
+            <TitleBar title="Simpsons Quote Terminal" />
+            <TextArea />
+        </div>
+
     );
 }
 

@@ -1,0 +1,11 @@
+#title-bar {
+    background: linear-gradient(90deg, gray 20%, white, gray 80%);
+    color: black;
+    width: 100%;
+    height: 25px;
+    font-family: 'Cantarell', sans-serif;
+    border-radius: 5px 5px 0 0;
+    margin: 0;
+    text-align: center;
+} 
+  

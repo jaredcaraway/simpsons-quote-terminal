@@ -1,10 +1,13 @@
 import WindowControlGroup from './WindowControlGroup';
+import Title from './Title';
 
-function TitleBar({ windowType }) {
+import './TitleBar.css';
+
+function TitleBar({ windowType, title }) {
     return (
-        <div>
-            <h3>Title Bar: {windowType}</h3>
+        <div id="title-bar">
             <WindowControlGroup />
+            <Title title={title} />
         </div>
     );
 }
