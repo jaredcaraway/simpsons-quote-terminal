@@ -1,0 +1,13 @@
+#user-text {
+    color: #8AE234;
+}
+
+#path {
+    color: #729FCF;
+    padding-left: 5px;
+}
+#cursor {
+    display: inline-block;
+}
+.cursorOn {
+}

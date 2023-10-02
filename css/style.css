@@ -20,9 +20,9 @@ body {
   margin: 2% auto 5%;
   overflow-wrap: break-word;
 } */
-#user-text {
+/* #user-text {
   color: #8AE234;
-}
+} */
 /* #title-bar {
   background: linear-gradient(90deg, gray 20%, white, gray 80%);
   color: black;
@@ -58,7 +58,7 @@ body {
   margin-top: 3px;
   margin-right: 4px;
 } */
-#path {
+/* #path {
   color: #729FCF;
 }
 #cursor {
@@ -72,7 +72,7 @@ body {
 }
 .cursorOn {
   background-color: #AEA79F;
-}
+} */
 /* i.fa-free-code-camp,
 i.fa-twitter {
   display: block;

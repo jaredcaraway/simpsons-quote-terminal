@@ -1,5 +1,5 @@
 function Output() {
-    return <div>Output</div>;
+    return <span id="quoteOutput"></span>;
 }
 
 export default Output;

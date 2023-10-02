@@ -6,7 +6,6 @@ import './TitleBar.css';
 function TitleBar({ windowType, title }) {
     return (
         <div id="title-bar">
-
             <WindowControlGroup />
             <Title title={title} />
         </div>
