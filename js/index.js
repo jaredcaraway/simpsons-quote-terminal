@@ -71,14 +71,16 @@ $(function(){
   
   generateButton.addEventListener("click", function() {
     $.ajax({
-      url: "https://thesimpsonsquoteapi.glitch.me/quotes",
+      url: "quotes.json",
       type: "GET",
       success: function(data) {
-        tweetQuote = tweetifyQuote(data);
-        typeWrite(data);
-      } // Ajax success function
-    }); // outer Ajax call
-  }); // Desktop icon event listener
+        var randomIndex = Math.floor(Math.random() * data.length);
+        var quote = [data[randomIndex]];
+        tweetQuote = tweetifyQuote(quote);
+        typeWrite(quote);
+      }
+    });
+  });
 
   //Cursor blink function
   setInterval(function() {
