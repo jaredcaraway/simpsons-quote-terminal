@@ -8,7 +8,7 @@ var autoprefixer = require('gulp-autoprefixer');
 var browserSync = require('browser-sync').create();
 
 gulp.task('scripts', function() {
-    return gulp.src('js/scripts.js')
+    return gulp.src('js/index.js')
         .pipe(plumber(plumber({
             errorHandler: function (err) {
                 console.log(err);
@@ -28,7 +28,7 @@ gulp.task('scripts', function() {
 });
 
 gulp.task('styles', function () {
-    return gulp.src('./scss/styles.scss')
+    return gulp.src('./scss/style.scss')
         .pipe(wait(250))
         .pipe(sass({outputStyle: 'compressed'}).on('error', sass.logError))
         .pipe(gulp.dest('./css'))
