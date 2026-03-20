@@ -10,9 +10,9 @@ $(function(){
     if (tweetQuote === undefined) {
       console.log("No quote generated");
     } else {
-      var tweetURL = "https://twitter.com/intent/tweet?text=" + tweetQuote;
-      window.open(tweetURL,
-                  'Tweet this quote!',
+      var postURL = "https://x.com/intent/post?text=" + tweetQuote;
+      window.open(postURL,
+                  'Post this quote!',
                   'resizable,height=360,width=500');
       return false;
     }
