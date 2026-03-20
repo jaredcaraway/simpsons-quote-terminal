@@ -19,13 +19,49 @@ $(function(){
   });
 
   function typeWrite(data) {
-   // console.log("typeWrite function called");
+    var quote = data[0].quote;
+    var character = data[0].character;
+    var attribution = '-' + character;
+    var index = 0;
+
+    quoteOutput.innerHTML = '<br>';
+
+    function typeChar() {
+      if (index < quote.length) {
+        var char = quote[index];
+        quoteOutput.innerHTML += char;
+        index++;
+
+        var delay = Math.floor(Math.random() * 50) + 30; // 30–80ms base
+        if ('.!?,'.indexOf(char) !== -1) {
+          delay += 200; // pause after punctuation
+        }
+        setTimeout(typeChar, delay);
+      } else {
+        // Quote done — pause then type attribution
+        setTimeout(function() {
+          quoteOutput.innerHTML += '<br>';
+          var attrIndex = 0;
+          function typeAttr() {
+            if (attrIndex < attribution.length) {
+              quoteOutput.innerHTML += attribution[attrIndex];
+              attrIndex++;
+              var delay = Math.floor(Math.random() * 50) + 30;
+              setTimeout(typeAttr, delay);
+            } else {
+              showTweetButton();
+            }
+          }
+          typeAttr();
+        }, 400);
+      }
+    }
+
+    typeChar();
   }
   
   function tweetifyQuote(data) {
     var quote = encodeURI(data[0].quote + "\n\n-" + data[0].character);
-    console.log(quote);
-    console.log(quote.length);
     return quote;
   }
   
@@ -33,34 +69,27 @@ $(function(){
     $( twitterButton ).fadeIn(2000);
   }
   
-  function displayQuote(data) {
-    quoteOutput.innerHTML = "<br>" + data[0].quote + "<br><br>-" + data[0].character;
-  }
-
   generateButton.addEventListener("click", function() {
     $.ajax({
       url: "https://thesimpsonsquoteapi.glitch.me/quotes",
       type: "GET",
       success: function(data) {
         tweetQuote = tweetifyQuote(data);
-        showTweetButton();
         typeWrite(data);
-        displayQuote(data);
       } // Ajax success function
     }); // outer Ajax call
   }); // Desktop icon event listener
 
   //Cursor blink function
-  setInterval(function() { 
+  setInterval(function() {
     cursor.classList.toggle("cursorOn");
   },
   950);
-}); // document.ready()
 
-$(document).keypress(function(event){
-  //alert(String.fromCharCode(event.which));
-  var keyPressed = String.fromCharCode(event.which);
-  if (keyPressed.toLowerCase() === "r") {
-    alert("Generating new quote!");
-  }
-});
+  $(document).keypress(function(event) {
+    var keyPressed = String.fromCharCode(event.which);
+    if (keyPressed.toLowerCase() === 'r') {
+      generateButton.click();
+    }
+  });
+}); // document.ready()
